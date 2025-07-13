@@ -8,6 +8,11 @@ import {
 } from 'react-icons/si';
 import { Timeline } from "./ui/timeline";
 
+// Import images as React components
+import Gramhealth1 from "../assets/gramhealth1.png";
+import Manoscope from "../assets/manoscope.png";
+import Mumgency from "../assets/mumgency.png";
+
 export default function About() {
 const timelineData = [
     {
@@ -18,10 +23,10 @@ const timelineData = [
                     UI/UX Designer Intern at GramHealth: Contributed to real-time design systems, created responsive mobile/web interfaces, and participated in user research.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
-                    <img src="/src/assets/gramhealth1.png" alt="Design Sample" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
-                    <img src="/src/assets/gramhealth1.png" alt="UI" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
-                    <img src="/src/assets/gramhealth1.png" alt="UX" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
-                    <img src="/src/assets/gramhealth1.png" alt="Workflow" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Gramhealth1} alt="Design Sample" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Gramhealth1} alt="UI" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Gramhealth1} alt="UX" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Gramhealth1} alt="Workflow" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
                 </div>
             </div>
         )
@@ -34,8 +39,8 @@ const timelineData = [
                     Participated in multiple hackathons and built end-to-end UI/UX solutions for student-centric platforms.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
-                    <img src="/src/assets/manoscope.png" alt="Hackathon" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
-                    <img src="/src/assets/mumgency.png" alt="Design Sprint" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Manoscope} alt="Hackathon" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Mumgency} alt="Design Sprint" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
                 </div>
             </div>
         )
