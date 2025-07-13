@@ -1,14 +1,17 @@
 import { TypeAnimation } from 'react-type-animation';
 import { FaLinkedin, FaGithub, FaDribbble } from 'react-icons/fa';
 
+// Import image as a module
+import aboutImg from '../assets/aboutimg.png';
+
 export default function Hero() {
   return (
     <section className="py-16 px-6 max-w-4xl mx-auto text-center" id="home">
-       <img
-    src="src/assets/aboutimg.png"
-    alt="Shreya profile"
-    className="w-40 h-40 mx-auto mb-6 rounded-full border-4 border-purple-500 shadow-lg object-cover"
-  />
+      <img
+        src={aboutImg}
+        alt="Shreya profile"
+        className="w-40 h-40 mx-auto mb-6 rounded-full border-4 border-purple-500 shadow-lg object-cover"
+      />
       <h1 className="text-5xl font-bold mb-4 text-white">
         Hey, I'm{' '}
         <span className="bg-purple-500 bg-clip-text text-transparent">
