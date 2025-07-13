@@ -1,19 +1,24 @@
 import React from "react";
 
+// Import images as modules
+import InnosphereImg from "../assets/Innosphere.png";
+import NcodeImg from "../assets/ncode.png";
+import ManoscopeImg from "../assets/manoscope.png";
+
 const projects = [
   {
     name: "InnoSphere",
-    image: "/src/assets/Innosphere.png",
+    image: InnosphereImg,
     link: "https://innosphere.netlify.app/"
   },
   {
     name: "Ncode",
-    image: "/src/assets/ncode.png",
+    image: NcodeImg,
     link: "https://ncodee.netlify.app/"
   },
   {
     name: "Manoscope",
-    image: "/src/assets/manoscope.png",
+    image: ManoscopeImg,
     link: "https://research-directory-demo.vercel.app/"
   }
 ];
