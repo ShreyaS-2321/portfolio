@@ -20,12 +20,22 @@ import Khanabhilekh from "../assets/ka.png"
 
 export default function About() {
 const timelineData = [
+  {
+        title: "2025",
+        content: (
+            <div>
+                <p className="mb-8 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk']">
+                    Currently diving into full-stack development to strengthen both frontend and backend skills. Also focusing on Data Structures and Algorithms using Java to sharpen problem-solving abilities. Actively looking for exciting job and internship opportunities!
+                </p>
+            </div>
+        )
+    },
     {
         title: "2024",
         content: (
             <div>
                 <p className="mb-8 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk']">
-                    UI/UX Designer Intern at GramHealth: Contributed to real-time design systems, created responsive mobile/web interfaces, and participated in user research.
+                    UI/UX Design Intern at GramHealth & Freelance UI/UX Designer at Swarnadeep Castings Pvt. Ltd.: Contributed to real-time design systems, created responsive mobile/web interfaces, and participated in user research.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                     <img src={Gramhealth} alt="Design Sample" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
@@ -41,7 +51,7 @@ const timelineData = [
         content: (
             <div>
                 <p className="mb-8 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk']">
-                    Participated in multiple hackathons and built end-to-end UI/UX solutions for student-centric platforms.
+                    Participated in multiple hackathons and built end-to-end UI/UX platforms. Started exploring more about frontend development, learning to bring ideas to life in the browser.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                     <img src={Manoscope} alt="Hackathon" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
@@ -55,7 +65,7 @@ const timelineData = [
         content: (
             <div>
                 <p className="mb-4 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk']">
-                    Started my journey in frontend development and UI/UX design. Created personal projects using React, TailwindCSS, and Figma.
+                    Started my journey in frontend development and UI/UX design. Got hands-on with Figma and began experimenting with personal designs and mini projects.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                     <img src={Travelo} alt="Hackathon" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
@@ -71,10 +81,7 @@ const timelineData = [
       <h2 className="text-4xl font-bold mb-6 text-purple-500">About Me</h2>
 
       <p className="text-lg mb-10 text-gray-300 leading-relaxed text-justify">
-        I'm a final-year Computer Science student who blends logic with creativity.
-        I love building beautiful interfaces with Figma, React, and Tailwind,
-        and I enjoy turning ideas into real products. With a strong grasp on both
-        design and code, I’m always exploring new ways to solve problems.
+        I'm a final-year Computer Science student who loves mixing creativity with problem-solving. I enjoy designing clean and user-friendly interfaces and turning ideas into real, usable products. With a good understanding of both design and development, I’m always looking for new and better ways to make things work and look great.
       </p>
 
       <h3 className="text-3xl font-semibold mb-6">Skills</h3>
