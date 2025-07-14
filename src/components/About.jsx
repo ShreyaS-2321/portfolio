@@ -9,9 +9,14 @@ import {
 import { Timeline } from "./ui/timeline";
 
 // Import images as React components
-import Gramhealth1 from "../assets/gramhealth1.png";
-import Manoscope from "../assets/manoscope.png";
-import Mumgency from "../assets/mumgency.png";
+import Gramhealth from "../assets/gramhealth.png";
+import Swarnadeep from "../assets/swarnadeep.png";
+import Bibliohive from "../assets/bibliohive.jpg";
+import Manoscope from "../assets/p2.png";
+import Mumgency from "../assets/m2.png";
+import Travelo from "../assets/travelo.png";
+import Skillquest from "../assets/sq.png"
+import Khanabhilekh from "../assets/ka.png"
 
 export default function About() {
 const timelineData = [
@@ -23,10 +28,10 @@ const timelineData = [
                     UI/UX Designer Intern at GramHealth: Contributed to real-time design systems, created responsive mobile/web interfaces, and participated in user research.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
-                    <img src={Gramhealth1} alt="Design Sample" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
-                    <img src={Gramhealth1} alt="UI" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
-                    <img src={Gramhealth1} alt="UX" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
-                    <img src={Gramhealth1} alt="Workflow" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Gramhealth} alt="Design Sample" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Swarnadeep} alt="UI" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Bibliohive} alt="UX" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Khanabhilekh} alt="Workflow" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
                 </div>
             </div>
         )
@@ -52,6 +57,10 @@ const timelineData = [
                 <p className="mb-4 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk']">
                     Started my journey in frontend development and UI/UX design. Created personal projects using React, TailwindCSS, and Figma.
                 </p>
+                <div className="grid grid-cols-2 gap-4">
+                    <img src={Travelo} alt="Hackathon" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                    <img src={Skillquest} alt="Design Sprint" className="h-20 w-full rounded-lg object-cover object-top md:h-44 lg:h-60" />
+                </div>
             </div>
         )
     }
