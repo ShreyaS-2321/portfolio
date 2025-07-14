@@ -37,12 +37,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full bg-transparent text-white font-sans md:px-10"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-4 px-4 md:px-8 lg:px-10">
+      {/* <div className="max-w-7xl mx-auto py-4 px-4 md:px-8 lg:px-10">
         <p className="text-white text-md md:text-base max-w-sm mx-auto text-center">
           I&apos;ve been working on UI/UX and Frontend for the past 2 years. Here&apos;s
           a timeline of my journey.
         </p>
-      </div>
+      </div> */}
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
