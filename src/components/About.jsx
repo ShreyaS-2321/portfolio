@@ -24,7 +24,7 @@ const timelineData = [
         title: "2025",
         content: (
             <div>
-                <p className="mb-8 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk']">
+                <p className="mb-8 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk'] text-justify">
                     Currently diving into full-stack development to strengthen both frontend and backend skills. Also focusing on Data Structures and Algorithms using Java to sharpen problem-solving abilities. Actively looking for exciting job and internship opportunities!
                 </p>
             </div>
@@ -34,7 +34,7 @@ const timelineData = [
         title: "2024",
         content: (
             <div>
-                <p className="mb-8 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk']">
+                <p className="mb-8 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk'] text-justify">
                     UI/UX Design Intern at GramHealth & Freelance UI/UX Designer at Swarnadeep Castings Pvt. Ltd.: Contributed to real-time design systems, created responsive mobile/web interfaces, and participated in user research.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
@@ -50,7 +50,7 @@ const timelineData = [
         title: "2023",
         content: (
             <div>
-                <p className="mb-8 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk']">
+                <p className="mb-8 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk'] text-justify">
                     Participated in multiple hackathons and built end-to-end UI/UX platforms. Started exploring more about frontend development, learning to bring ideas to life in the browser.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
@@ -64,7 +64,7 @@ const timelineData = [
         title: "2022",
         content: (
             <div>
-                <p className="mb-4 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk']">
+                <p className="mb-4 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk'] text-justify">
                     Started my journey in frontend development and UI/UX design. Got hands-on with Figma and began experimenting with personal designs and mini projects.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
