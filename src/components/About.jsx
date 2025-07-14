@@ -27,6 +27,9 @@ const timelineData = [
                 <p className="mb-8 text-xs font-normal text-white md:text-sm dark:text-neutral-200 font-['Space_Grotesk'] text-justify">
                     Currently diving into full-stack development to strengthen both frontend and backend skills. Also focusing on Data Structures and Algorithms using Java to sharpen problem-solving abilities. Actively looking for exciting job and internship opportunities!
                 </p>
+                <div className="grid grid-cols-1 gap-4"> 
+                  <a href="https://www.linkedin.com/in/shreya-shrivastava-261245256/" className="bg-purple-600 text-white px-4 py-2 rounded-md text-md font-bold">Hire Me :)</a>
+                </div>
             </div>
         )
     },
