@@ -1,9 +1,9 @@
 import React from "react";
 
 // Import images as modules
-import InnosphereImg from "../assets/Innosphere.png";
+import InnosphereImg from "../assets/p1.png";
 import NcodeImg from "../assets/ncode.png";
-import ManoscopeImg from "../assets/manoscope.png";
+import ManoscopeImg from "../assets/p2.png";
 
 const projects = [
   {
@@ -19,7 +19,7 @@ const projects = [
   {
     name: "Manoscope",
     image: ManoscopeImg,
-    link: "https://research-directory-demo.vercel.app/"
+    link: "https://manoscope.vercel.app/"
   }
 ];
 
