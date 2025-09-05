@@ -32,7 +32,7 @@ export default function Hero() {
       {/* Resume Download Button */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
         <a
-          href="public/Resume_Shreya.pdf"
+          href="src/assets/Resume-Shreya.pdf"
           download
           className="px-6 py-3 bg-purple-600 text-white rounded-full font-medium hover:bg-purple-700 transition"
         >
